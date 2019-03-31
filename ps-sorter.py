@@ -31,7 +31,7 @@ def Clicker():
 
 email=sys.argv[1]
 password=sys.argv[2]
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(executable_path='C:\\chromedriver.exe')
 driver.get('http://psd.bits-pilani.ac.in/Login.aspx')
 time.sleep(1)
 driver.find_element_by_xpath("""//*[@id="TxtEmail"]""").send_keys(email)

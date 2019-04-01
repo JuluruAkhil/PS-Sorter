@@ -13,7 +13,6 @@ def Sorter():
 				line_count += 1
 			else:
 				pointer_mover="""//span[contains(text(), "{}")]/ancestor::li[contains(@class,'col-sm-12 item-blue clearfix ui-state-default')]""".format(row[0])
-				pointer_selector="""//span[contains(text(), "{}")]/ancestor::li[contains(@class,'col-sm-12 item-blue clearfix ui-state-default')]/input[@name='accomoPreference']""".format(row[0])
 				draggable=driver.find_element_by_xpath(pointer_mover)
 				droppable=driver.find_element_by_xpath("""//*[@id="sortable_nav"]/li[312]""")
 				ActionChains(driver).click_and_hold(draggable).move_by_offset(-1,-1).move_to_element(droppable).move_by_offset(-1,-1).pause(1).release().perform()

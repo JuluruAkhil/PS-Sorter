@@ -44,4 +44,5 @@ Sorter()
 
 Clicker()
 
+print("Please sort these stations yourself (Finance and Mgmt-AP Govt Mee Seva, Vijayawada, Mechanical-Lumax Auto Technologies Limited, Gurgaon)")
 print("Stations sorted. PLEASE CHECK TWICE FOR ANY DISCREPANCIES BEFORE SUBMITTING!!!!!!!!!")

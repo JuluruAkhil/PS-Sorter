@@ -1,6 +1,8 @@
 # PS-Sorter
 A script written in python with selenium library to sort ps station choices from a csv file
 
+INCLUDES THE NEW ADDED STATIONS
+
 ***Requirments***
 
 - Python3
@@ -43,3 +45,4 @@ python ps-sorter.py [EmailId] [Password]
 - When the script is running put the cursor away from the browser
 - This script does not submit changes it only sorts them. You have to continue from there
 - PLEASE CHECK TWICE BEFORE SUBMITTING CHANGES!!
+- Please sort these stations yourself (Finance and Mgmt-AP Govt Mee Seva, Vijayawada, Mechanical-Lumax Auto Technologies Limited, Gurgaon)
